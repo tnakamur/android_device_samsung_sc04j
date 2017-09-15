@@ -12,7 +12,8 @@ PRODUCT_PACKAGES += \
 	charger
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := sc04j
 PRODUCT_NAME := omni_sc04j
+PRODUCT_DEVICE := sc04j
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
+PRODUCT_MODEL := SM-A310D
