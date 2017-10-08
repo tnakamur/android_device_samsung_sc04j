@@ -1,5 +1,3 @@
-USE_CAMERA_STUB := true
-
 # Platform
 TARGET_SOC := exynos7870
 BOARD_VENDOR := samsung
@@ -49,8 +47,6 @@ BOARD_CUSTOM_BOOTIMG_MK :=  device/samsung/sc04j/bootimg.mk
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
 TW_HAS_MTP := true
-RECOVERY_SDCARD_ON_DATA := true
-BOARD_HAS_NO_REAL_SDCARD := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/13600000.usb/13600000.dwc3/gadget/lun%d/file"
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
 TW_MAX_BRIGHTNESS := 255
@@ -62,7 +58,6 @@ TW_EXCLUDE_SUPERSU := true
 TW_INCLUDE_NTFS_3G := true
 TW_EXTRA_LANGUAGES := true
 TW_USE_NEW_MINADBD := true
-TWRP_INCLUDE_LOGCAT := true
 
 # Color fix
 TARGET_RECOVERY_PIXEL_FORMAT := "ABGR_8888"
