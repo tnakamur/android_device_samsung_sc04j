@@ -17,3 +17,11 @@ PRODUCT_DEVICE := sc04j
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SM-A310D
+
+# dt
+PRODUCT_COPY_FILES += \
+    device/samsung/sc04j/dt.img:dt.img
+
+# kernel
++PRODUCT_COPY_FILES += \
+    device/samsung/sc04j/Image:kernel
