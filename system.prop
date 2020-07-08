@@ -1,0 +1,8 @@
+ro.hardware=samsungexynos7870
+ro.arch=exynos7870
+ro.chipname=exynos7870
+ro.product.brand=samsung
+ro.product.name=SC-04J
+ro.product.device=SC-04J
+ro.build.product=SC-04J
+ro.treble.enabled=true
