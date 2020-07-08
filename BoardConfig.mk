@@ -51,7 +51,7 @@ TW_INCLUDE_FBE := true
 # Kernel
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_CONFIG := exynos7870-sc04j_defconfig
+TARGET_KERNEL_CONFIG := exynos7870-a3xpremiumlte_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/exynos7870
 
 # Extracted with libbootimg
