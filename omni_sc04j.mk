@@ -26,7 +26,7 @@ PRODUCT_PACKAGES += \
 	charger
 
 PRODUCT_DEVICE := SC-04J
-PRODUCT_NAME := omni_SC-04J
+PRODUCT_NAME := omni_sc04j
 PRODUCT_MODEL := Samsung Galaxy Feel
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
