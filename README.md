@@ -17,7 +17,7 @@ $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optim
 
 # Build
 $ mv device/samsung/sc04j/build_twrp.sh .
-$ . build_twrp.sh SC-04J
+$ . build_twrp.sh sc04j
 ```
 ## Credits
 2020 @tnakamur
