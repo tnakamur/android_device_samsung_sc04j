@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-PRODUCT_RELEASE_NAME := SC-04J
+PRODUCT_RELEASE_NAME := sc04j
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -25,7 +25,7 @@ PRODUCT_PACKAGES += \
 	charger_res_images \
 	charger
 
-PRODUCT_DEVICE := SC-04J
+PRODUCT_DEVICE := sc04j
 PRODUCT_NAME := omni_sc04j
 PRODUCT_MODEL := Samsung Galaxy Feel
 PRODUCT_BRAND := samsung
